@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Motion Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="space-container">
+        </div>
+<header>
+    <nav>
+        <a href="#" class="logo">My Portfolio</a>
+        <button class="hamburger" aria-label="Toggle navigation">
+            &#9776; </button>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Space Portfolio</h1>
+            <p>Explore my skills and projects in the universe of web development.</p>
+            <a href="#projects" class="cta-button">View Projects</a>
+        </div>
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Profile" class="profile-img">
+        </div>
+    </section>
+    <section class="about fade-in-up" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="about.jpg" alt="About Me">
+            </div>
+            <div class="bio-text">
+                <p>I'm a passionate web developer with a love for creating interactive and dynamic web applications. My journey in coding started with HTML and CSS, and I've since expanded my skills to include JavaScript and various frameworks.</p>
+            </div>
+        </div>
+    </section>
+  <section class="skills fade-in-up" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-list">
+        <div class="skill-card">
+            <div class="circular-progress">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__background" cx="60" cy="60" r="54"></circle>
+                    <circle class="progress-ring__fill" cx="60" cy="60" r="54" 
+                            stroke-dasharray="339" stroke-dashoffset="339"></circle>
+                </svg>
+                <div class="progress-value" data-percent="100">0%</div>
+            </div>
+            <div class="skill-info">
+                <h3 class="skill-name">HTML5</h3>
+                <p class="skill-description">Semantic markup, accessibility, and modern HTML5 features</p>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="circular-progress">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__background" cx="60" cy="60" r="54"></circle>
+                    <circle class="progress-ring__fill" cx="60" cy="60" r="54" 
+                            stroke-dasharray="339" stroke-dashoffset="339"></circle>
+                </svg>
+                <div class="progress-value" data-percent="75">0%</div>
+            </div>
+            <div class="skill-info">
+                <h3 class="skill-name">CSS3</h3>
+                <p class="skill-description">Responsive design, animations, and CSS preprocessors</p>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="circular-progress">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__background" cx="60" cy="60" r="54"></circle>
+                    <circle class="progress-ring__fill" cx="60" cy="60" r="54" 
+                            stroke-dasharray="339" stroke-dashoffset="339"></circle>
+                </svg>
+                <div class="progress-value" data-percent="89">0%</div>
+            </div>
+            <div class="skill-info">
+                <h3 class="skill-name">JavaScript</h3>
+                <p class="skill-description">ES6+, modern frameworks, and interactive web apps</p>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="circular-progress">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__background" cx="60" cy="60" r="54"></circle>
+                    <circle class="progress-ring__fill" cx="60" cy="60" r="54" 
+                            stroke-dasharray="339" stroke-dashoffset="339"></circle>
+                </svg>
+                <div class="progress-value" data-percent="82">0%</div>
+            </div>
+            <div class="skill-info">
+                <h3 class="skill-name">React</h3>
+                <p class="skill-description">Building dynamic user interfaces and single-page applications</p>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="circular-progress">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__background" cx="60" cy="60" r="54"></circle>
+                    <circle class="progress-ring__fill" cx="60" cy="60" r="54" 
+                            stroke-dasharray="339" stroke-dashoffset="339"></circle>
+                </svg>
+                <div class="progress-value" data-percent="80">0%</div>
+            </div>
+            <div class="skill-info">
+                <h3 class="skill-name">Node.js</h3>
+                <p class="skill-description">Building scalable server-side applications with JavaScript</p>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="circular-progress">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__background" cx="60" cy="60" r="54"></circle>
+                    <circle class="progress-ring__fill" cx="60" cy="60" r="54" 
+                            stroke-dasharray="339" stroke-dashoffset="339"></circle>
+                </svg>
+                <div class="progress-value" data-percent="85">0%</div>
+            </div>
+            <div class="skill-info">
+                <h3 class="skill-name">Python</h3>
+                <p class="skill-description">Backend development, data analysis, and automation scripts</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="projects" id="projects">
+    <div class="projects-container">
+        <h2>Cosmic Creations</h2>
+        <p class="projects-subtitle">Exploring the galaxy of web development through innovative projects</p>
+        
+        <div class="project-filters">
+            <a href="#" class="filter-button active" data-filter="all">All Projects</a>
+            <a href="#" class="filter-button" data-filter="web-apps">Web Apps</a>
+            <a href="#" class="filter-button" data-filter="designs">Designs</a>
+        </div>
+
+        <div class="project-list">
+            <div class="project-card web-apps" data-category="web-apps">
+                <div class="project-image">
+                    <img src="project1.jpg" alt="Space Explorer App">
+                    <div class="project-overlay"></div>
+                </div>
+                <div class="project-info">
+                    <h3>Galaxy Tracker</h3>
+                    <span class="project-niche">Astronomy Web App</span>
+                    <p>Real-time celestial event tracking with interactive 3D star maps</p>
+                    <a href="#" class="project-button">Explore Constellation</a>
+                </div>
+            </div>
+
+            <div class="project-card designs" data-category="designs">
+                <div class="project-image">
+                    <img src="design1.jpg" alt="UI Design">
+                    <div class="project-overlay"></div>
+                </div>
+                <div class="project-info">
+                    <h3>Cosmic UI Kit</h3>
+                    <span class="project-niche">Design System</span>
+                    <p>Comprehensive space-themed design system with 100+ components</p>
+                    <a href="#" class="project-button">View Designs</a>
+                </div>
+            </div>
+
+            </div>
+    </div>
+    <section class="testimonials" id="testimonials">
+    <div class="testimonials-container">
+        <h2>Stellar Feedback</h2>
+        <p class="testimonials-subtitle">What clients say about working across the cosmos</p>
+
+        <div class="testimonials-carousel">
+            <div class="testimonial-card active">
+                <div class="client-image">
+                    <img src="client1.jpg" alt="Client">
+                    <div class="client-rating">
+                        ★★★★★
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <h3>Orion Tech Solutions</h3>
+                    <p class="client-role">Galactic Web Development</p>
+                    <blockquote>
+                        "Their work launched our platform into another dimension! The attention to detail in the 
+                        space-themed animations was truly out of this world."
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="client-image">
+                    <img src="client2.jpg" alt="Client">
+                    <div class="client-rating">
+                        ★★★★☆
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <h3>NASA Innovation Lab</h3>
+                    <p class="client-role">Space App Development</p>
+                    <blockquote>
+                        "The most stellar developer we've worked with. Their ability to create zero-gravity UI 
+                        effects is truly remarkable."
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="carousel-controls">
+                <button class="prev-btn">‹</button>
+                <div class="dots-container"></div>
+                <button class="next-btn">›</button>
+            </div>
+        </div>
+    </div>
+<section class="contact" id="contact">
+    <div class="contact-container">
+        <h2>Get in Touch</h2>
+        <p class="contact-subtitle">I would love to hear from you! Please fill out the form below.</p>
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+        <a href="#contact" class="contact-link">Contact Me</a>
+    </div>
+</footer>
+
+    </section>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
